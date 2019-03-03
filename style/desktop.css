@@ -1,0 +1,150 @@
+h1, h2, h3, h4, h5, h6, dl, ul, ol,  p {
+	margin: 20px 0;
+}
+
+h1 {
+	font-size: 55px;
+}
+h2 {
+	font-size: 30px;
+}
+
+ul {
+	margin-left: 30px;
+}
+
+form ul {
+	margin-left: 0;
+}
+
+img.f-left {
+	margin-right: 20px;
+}
+img.f-right {
+	margin-left: 20px;
+}
+
+#wrapper_first{
+    width: 100%;
+}
+.wrapper {
+	width: 980px;
+}
+ hgroup{
+	width: 100%;
+}
+
+.header {
+	padding: 30px 0;
+}
+	.nav {
+		position: absolute;
+		top: 8px;
+		right:  0;
+	}
+	.nav a {
+		margin-right: 20px;
+	}
+
+
+.content {
+	padding: 40px 0;
+}
+
+.half {
+	float: left;
+	width: 470px;
+}
+
+.customer {
+	padding: 40px 0;
+}
+	.customer article {
+		margin-top: 40px;
+	}
+	customer-image {
+		float: left;
+		width: 100px;
+	}
+	customer-text {
+		float: right;
+		width: 340px;
+	}
+
+.footer {
+	padding: 40px 0;
+}
+	.footer .f-right img {
+		margin-left: 8px;
+	}
+.topall{
+	margin:0;
+	padding: 0;
+	background: url("../images/travel1.jpg") 0 0 no-repeat ;
+	background-color: #A7A7A7;
+	background-size: 100%;
+
+}
+.main {
+
+	height: 380px;
+
+}
+	.main .wrapper {
+		width: 100%;
+		padding-top: 60px;
+		padding-right: 420px;
+	}
+	.main h1 {
+		font-weight: 400;
+	}
+	.main h3 {
+		margin-top: 15px;
+		line-height: 1;
+	}
+	.button {
+		margin: 0;
+		margin-top: 20px;
+		padding: 15px 30px;
+	}
+
+.reklam {
+	min-height: 267px;
+	padding: 40px 0;
+}
+	.reklam-text {
+		float: right;
+		padding-top: 55px;
+		font-size: 22px;
+	}
+
+.techniks {
+	padding: 40px 0;
+}
+	.techniks article {
+		float: left;
+		width: 310px;
+		margin-top: 30px;
+		margin-right: 25px;
+	}
+	.techniks article.last {
+		margin-right: 0;
+	}
+	.techniks article img {
+		margin-bottom: 20px;
+		margin-left: 20px;
+	}
+.main-ourworks {
+	padding: 40px 0;
+}
+
+
+
+.input-text,
+.input-textarea {
+	padding: 8px;
+}
+	.input-submit {
+		padding: 8px 20px;
+		cursor: pointer;
+	}

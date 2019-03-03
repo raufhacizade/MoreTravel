@@ -1,0 +1,190 @@
+
+@media only screen and (max-width:767px) {
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, dl, ul, ol, p {
+	margin: 15px 0;
+}
+
+body {
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: 700;
+}
+h2 {
+	font-size: 22px;
+}
+h3, h4, h5 {
+	font-size: 18px;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+img.f-left,
+img.f-right {
+	display: block;
+	float: none !important;
+	margin: 0 auto 15px auto;
+}
+hgroup{
+	display: none;
+}
+
+.topall{
+	height: 400px;
+	text-align: center;
+
+}
+.wrapper {
+	width: 100%;
+}
+
+.header {
+	padding: 10px 20px;
+}
+
+nav ul {
+	width: 100%;
+}
+	nav ul li{
+		float: left;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 100px;
+	}
+	main{
+		margin: 0;
+		padding: 0;
+	}
+
+.content {
+	padding: 20px;
+}
+
+.half {
+	float: none;
+	display: block;
+}
+
+.customer {
+	padding: 20px;
+}
+	.customer h2 {
+		text-align: center;
+	}
+	.customer article {
+		margin-top: 20px;
+	}
+	.customer-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+		width: 20%;
+	}
+	.customer-text {
+		 text-align: center;
+		  margin-left: auto;
+        margin-right: auto;
+		 width: 75%;
+	}
+
+.footer {
+	padding: 20px;
+}
+	.footer p {
+		float: none !important;
+		text-align: center;
+	}
+	.main-ourworks{
+	}
+.main-ourworks .wrapper {
+	display: none;
+}
+.main .wrapper {
+	overflow: hidden;
+	padding: 20px 20px 390px 20px;
+}
+	.main h1 {
+		font-weight: 400;
+	}
+	.main h3 {
+		margin-top: 10px;
+	}
+	.button {
+		margin-top: 15px;
+		padding: 5px 10px;
+	}
+
+
+.reklam {
+	padding: 20px;
+}
+	.reklam-text {
+		padding-top: 20px;
+		font-size: 18px;
+	}
+
+.reklam .logos div{
+	width: 100%;
+}
+.reklam .logos div img{
+	width: 100%;
+}
+.techniks {
+	padding: 20px;
+}
+	.techniks h2 {
+		text-align: center;
+	}
+	.techniks article {
+		float: none;
+		min-width: 280;
+		max-width: 100%;
+		margin: 20px auto 0 auto;
+	}
+	.techniks article img {
+		margin:0 auto 10px auto;
+	}
+
+.main-ourworks {
+	padding: 20px;
+}
+
+.container {
+	overflow: auto;
+	width: 100%;
+}
+
+.gallery li {
+	float: none;
+	display: block;
+	margin-bottom: 10px;
+}
+	.gallery .last {
+		margin-bottom: 0;
+	}
+	.gallery img {
+		margin: 0 auto;
+	}
+
+.input-text,
+.input-textarea {
+	width: 100%;
+	padding: 5px;
+}
+	.input-submit {
+		padding: 5px 20px;
+		cursor: pointer;
+	}
+
+ }
